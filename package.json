@@ -1,0 +1,28 @@
+{
+  "name": "html-css-lab",
+  "version": "1.0.0",
+  "description": "Requirements (max result – 7 points):\r -\tcrossbrowser layout (chrome, ie11, edge, firefox - latest versions)\r -\tmarkup should not be pixel perfect, but it must be most similar to PSD (font-size, colors, margins, etc. Use free fonts and icons). Extension for chrome - https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en\r -\telements, that can be hovered, must have styles for that\r -\tmarkup must be valid, check here - https://validator.w3.org/\r -\tuse semantic tags (section, header, footer, etc.)\r -\tnaming convention (e.g. BEM) (2 points)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svetlaya-Mariya/html-css-lab.git"
+  },
+  "author": "Svetlaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svetlaya-Mariya/html-css-lab/issues"
+  },
+  "homepage": "https://github.com/Svetlaya-Mariya/html-css-lab#readme",
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "5.0.0",
+    "node-sass": "6.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.38.1"
+  }
+}
