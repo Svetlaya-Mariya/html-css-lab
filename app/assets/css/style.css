@@ -296,6 +296,10 @@ body main .content .content__posts .content__posts_info .date p {
     line-height: 25px;
   }
 }
+body main .content .content__posts .content__posts_info .date:hover {
+  background-color: #60606e;
+  cursor: pointer;
+}
 body main .content .content__posts .content__posts_info .message {
   display: flex;
   justify-content: space-between;
@@ -303,6 +307,7 @@ body main .content .content__posts .content__posts_info .message {
   width: 32px;
   height: 16px;
   margin-left: 14px;
+  transition: all 350ms ease-out;
 }
 @media (min-width: 769px) and (max-width: 1300px) {
   body main .content .content__posts .content__posts_info .message {
@@ -336,6 +341,12 @@ body main .content .content__posts .content__posts_info .message span {
   color: #ccc;
   line-height: 16px;
 }
+body main .content .content__posts .content__posts_info .message:hover,
+body main .content .content__posts .content__posts_info .like:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #7beec7;
+}
 body main .content .content__posts .content__posts_info .like {
   display: flex;
   justify-content: space-between;
@@ -343,6 +354,7 @@ body main .content .content__posts .content__posts_info .like {
   width: 37px;
   height: 14px;
   margin-left: 20px;
+  transition: all 350ms ease-out;
 }
 @media (min-width: 769px) and (max-width: 1300px) {
   body main .content .content__posts .content__posts_info .like {
@@ -671,6 +683,16 @@ body main .content .content__aside .content__aside_info .info__archives > div p 
 body main .content .content__aside .content__aside_info .info__archives > div p {
     font-size: 9pt;
   }
+}
+body main .content .content__aside .content__aside_info .info__categories div:hover,
+body main .content .content__aside .content__aside_info .info__archives div:hover {
+  cursor: pointer;
+  transition: all 350ms ease-out;
+}
+body main .content .content__aside .content__aside_info .info__categories div:hover p,
+body main .content .content__aside .content__aside_info .info__archives div:hover p {
+  transform: scale(1.1);
+  color: #7beec7;
 }
 body main .content .content__aside .content__aside_info .info__tags {
   margin-top: 46px;

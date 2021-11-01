@@ -226,6 +226,10 @@ body {
               }
             }
           }
+          .date:hover {
+            background-color: #60606e;
+            cursor: pointer;
+          }
           .message {
             display: flex;
             justify-content: space-between;
@@ -233,6 +237,7 @@ body {
             width: 32px;
             height: 16px;
             margin-left: 14px;
+            transition: all 350ms ease-out;
             @media (min-width: 769px) and (max-width: 1300px) {
               width: 25px;
               height: 12px;
@@ -258,6 +263,12 @@ body {
               line-height: 16px;
             }
           }
+          .message:hover,
+          .like:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            color: #7beec7;
+          }
           .like {
             display: flex;
             justify-content: space-between;
@@ -265,6 +276,7 @@ body {
             width: 37px;
             height: 14px;
             margin-left: 20px;
+            transition: all 350ms ease-out;
             @media (min-width: 769px) and (max-width: 1300px) {
               width: 25px;
               height: 12px;
@@ -535,6 +547,16 @@ body {
               }
             }
           }
+          .info__categories div:hover,
+          .info__archives div:hover {
+            cursor: pointer;
+            transition: all 350ms ease-out;
+            p {
+              transform: scale(1.1);
+              color: #7beec7;
+            }
+          }
+
           .info__tags {
             margin-top: 46px;
             @media (min-width: 769px) and (max-width: 1300px) {
@@ -869,7 +891,6 @@ body {
           }
           a::after {
             backface-visibility: hidden;
-            // border: 1px solid #7beec7;
             content: " ";
             display: block;
             margin: 3px auto;
